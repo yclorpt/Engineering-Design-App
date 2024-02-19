@@ -1,6 +1,6 @@
-import 'package:app/models/article_model.dart';
-import 'package:app/widgets/custom_tag.dart';
-import 'package:app/widgets/image_container.dart';
+import 'package:medbot/models/article_model.dart';
+import 'package:medbot/widgets/custom_tag.dart';
+import 'package:medbot/widgets/image_container.dart';
 import 'package:flutter/material.dart';
 
 class ArticleScreen extends StatelessWidget {

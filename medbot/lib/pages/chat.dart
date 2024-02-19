@@ -1,4 +1,4 @@
-import 'package:app/widgets/bottom_nav_bar.dart';
+import 'package:medbot/widgets/bottom_nav_bar-this-one-i-think.dart';
 import 'package:flutter/material.dart';
 
 class Chat extends StatelessWidget {
@@ -8,8 +8,9 @@ class Chat extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
-        backgroundColor: Colors.transparent, actions: []),
+          automaticallyImplyLeading: false,
+          backgroundColor: Colors.transparent,
+          actions: []),
       bottomNavigationBar: const BottomNavBar(index: 1),
       extendBodyBehindAppBar: true,
       body: ListView(

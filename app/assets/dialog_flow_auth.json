@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "medbot-rufi",
+  "private_key_id": "c7120bfaecf83e09d8d38bb85010a298cbb8f4a4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC2PjVaWetiKm+9\nLc27BWO1OX+YiOBrwckJ+XOrqijvln48kUKCNrAZzNGs+jS/yyhj39Z8XvQlOtZu\n1fxAj5XRLwoDSSzl2Ex7MvgJBFqU7bqFJeQ8QFgopDMTN8B23eUKGsPuHxdFBBKk\nlcBRFzHl1z7OkmXnCfk/TCLbA5bcYJ2soDuifJiEubMNgTPAydxwxIWKExAm1Wfe\nZTlCXSBloWCCuLSmrItASnyfEdB5vVj+iHA6vwPGoHNC3hzoos9wBd4GyaDQX+Js\nIs1J/O/oWoDucw8aQBXiUKzoN7eVPZ4mqq4PZQcDlpxm8ewxfA6lhMWLV1IMSAKf\nGiCudXMpAgMBAAECggEAB4wevUfLTODVSRRGKIRF/3W6xCxKAAhx3RsCuHWm9Zop\nzvQUmSwu4ZinB9cCW32MRguZeEPd8FNGGWe9B0bzBUthiqaLiJbLPxBqr4PpxPBt\n+LDrqXegNwmq0FVPIBUbNM6MNfa9adcr9vs5MFqJr1s5T4iGVhnGg+GxMVkOFMEN\nGbwdu8F6Vod0wkSKeakoPyMaJw1GX0XOnvtOjJ3SJIVG7obX8QOeUmcI9KL4gIxQ\nv5iYsGHA2v1PVAAGwDEvpC2whbJoWN9Coj9/PRotKBcOFC1ZYOQHDmYpUlSbjV7a\nfErBRJ8l9cZluvx7pGfpJCgr/waD41SsbkqDJg9U0QKBgQDtogVhXJlf2FgvBqwD\nhyEW92GT/1cd+O0fklPhb6enOXzqrBzwKJIrWIkL1z6EnToKiIIy4dloH4eGAFt0\nryhM+mDizgdvT+/CkbK8eYNCjPZslnCaUZ94BO+iSSNv/4tvIPkUL/v+lHs32Mt1\nNKHUI36WJ/kRCketNIxq2W67eQKBgQDEVDPJM3ydTUP0RYc4e5/j7Isn82oF9XBo\n88coCG/pE3wl93QYvCksyv1D9jP8efPW26uX7uWb9b7tEMUDGywGvwrdZz32Ygtp\nh35MNDFa/UMHCMxYiRBMVLLbM7yDStBSNsbyiN3UmZCoRvbzOCz0qxhc5zdy6BSo\nqH4hHarZMQKBgQCB+arDtChX2jdxkU6op1KcAzcmAfWeeTcJm7mxhqbGupTurrEt\nUqOQfd6H0XVqh6zlcgD0379QSl6QFsXvLpb2c8RmiZZbdfeIDrUajcQTtJJclnSE\nk7yLoveHZkWxzq5vXDOgrRZCCujShQvT0bPqGnf0nWyHu3206Rccok0E0QKBgQC+\nVmfya3Eny83S10l2UBw+S4jJzap/Zml5xsXRIQTmMZbN9C7hACLnI1EQ/3N9Ffp5\n1nRwkxKV9lUI3pYyIbi4PaTZ64reAEXSJKMkXAFxllHSUwxR1WgwqHjSHUFpBDId\nUq/kWR6/S7Y7/rjSKicjeXDgOOXACBJnRRsrHekSMQKBgQDI1p8BUdJ2B8f2y1/c\nSJkf7skaQQk2GEr8xagXW5dHrH6WwOdvJmloNSykzyM06XHz4M168MFbtQccvjSU\nl+6nRg5bBL4HHeXxkQuL2wsGx+SnJeq1Yj3DnArWXZmQhlivQoRet1XdojLVR9Rx\nN+faKvO/5Pyg7U0Mu0NTIXT3Qg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "chris-sb-tsa-chatbot@medbot-rufi.iam.gserviceaccount.com",
+  "client_id": "112415317383515249312",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chris-sb-tsa-chatbot%40medbot-rufi.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

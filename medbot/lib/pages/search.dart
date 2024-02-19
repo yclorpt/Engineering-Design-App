@@ -1,7 +1,7 @@
-import 'package:app/models/article_model.dart';
-import 'package:app/screens/article_screen.dart';
-import 'package:app/widgets/bottom_nav_bar.dart';
-import 'package:app/widgets/image_container.dart';
+import 'package:medbot/models/article_model.dart';
+import 'package:medbot/pages/article_screen.dart';
+import 'package:medbot/widgets/bottom_nav_bar-this-one-i-think.dart';
+import 'package:medbot/widgets/image_container.dart';
 import 'package:flutter/material.dart';
 
 class Search extends StatelessWidget {

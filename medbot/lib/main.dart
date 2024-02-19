@@ -18,8 +18,9 @@
 //   }
 // }
 
-import '../../medbot/lib/pages/screens.dart';
+import 'package:medbot/pages/screens.dart';
 import 'package:flutter/material.dart';
+
 
 void main() {
   runApp(const MyApp());

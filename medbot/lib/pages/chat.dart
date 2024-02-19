@@ -3,15 +3,16 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lottie/lottie.dart';
 import 'package:medbot/bloc/chat_bloc.dart';
 import 'package:medbot/models/chat_message_model.dart';
+import 'package:medbot/widgets/bottom_nav_bar.dart';
 
 class Chat extends StatefulWidget {
   const Chat({super.key});
-
+  static const routeName = '/chat';
   @override
   State<Chat> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _HomePageState extends State<Chat> {
   final ChatBloc chatBloc = ChatBloc();
   TextEditingController textEditingController = TextEditingController();
   @override

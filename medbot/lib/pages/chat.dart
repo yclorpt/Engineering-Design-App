@@ -18,12 +18,31 @@ class _HomePageState extends State<Chat> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-            automaticallyImplyLeading: false,
-            backgroundColor: Colors.transparent,
-            actions: []),
-        bottomNavigationBar: const BottomNavBar(index: 1),
-        extendBodyBehindAppBar: true,
+      appBar: AppBar(
+        automaticallyImplyLeading: false,
+        backgroundColor: Colors.transparent,
+        actions: [
+          IconButton(onPressed: () {
+            showDialog(
+              context: context, 
+              builder: (context) => AlertDialog(
+                scrollable: true,
+                title: const Text('DISCLAIMER'),
+                content: const Text('MedBot is an artificial intelligence (AI) designed to offer general medical advice. It is currently in beta development and should not be considered a substitute for professional medical guidance. Please use the information provided with caution.\n\nMedBot is not a replacement for professional medical advice, diagnosis, or treatment. Consult with your physician or qualified health provider for personalized guidance.\n\nMedBot is in beta development. While efforts are made for accuracy, it may not reflect the most current medical standards. Updates are ongoing to improve reliability.\n\nExercise discretion when interpreting MedBot''s advice. Do not solely rely on it for critical healthcare decisions. In emergencies, seek immediate medical assistance.\n\nUsers acknowledge and assume risks associated with relying on AI-generated medical advice. Developers are not liable for any damages resulting from its use.\n\nProvide feedback on discrepancies or concerns. Your input helps enhance the accuracy of MedBot.\n\nBy using MedBot, you agree to this disclaimer. If you disagree, refrain from using the application.'),
+                actions: [
+                  TextButton(
+                    onPressed: () => Navigator.pop(context), 
+                    child: const Text('I Understand.')
+                    )
+                ],
+              )
+              );
+          }, 
+          icon: const Icon(Icons.info)
+          ),
+        ]),
+      bottomNavigationBar: const BottomNavBar(index: 1),
+      extendBodyBehindAppBar: true,
         body: BlocConsumer<ChatBloc, ChatState>(
           bloc: chatBloc,
           listener: (context, state) {},

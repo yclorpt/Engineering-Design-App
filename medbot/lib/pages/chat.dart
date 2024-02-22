@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
  
 
-class ChatScreen extends StatefulWidget {
-  const ChatScreen({super.key});
-
+class Chat extends StatefulWidget {
+  const Chat({super.key});
+  static const routeName = '/chat';
   @override
-  State<ChatScreen> createState() => _ChatScreenState();
+  State<Chat> createState() => _ChatScreenState();
 }
 
-class _ChatScreenState extends State<ChatScreen> {
+class _ChatScreenState extends State<Chat> {
   TextEditingController _userMessage = TextEditingController();
 
   static const apiKey = 'AIzaSyAt0dBsZMs0FmAi_SQjLRiuEcNAIdmlmpg';

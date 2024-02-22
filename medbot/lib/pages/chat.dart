@@ -33,7 +33,7 @@ class _ChatScreenState extends State<Chat> {
       children: [
         Row(
           children: [
-            Padding(
+            //1:20//Padding(
               padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 15),
               child: Expanded(
                 flex: 15,
@@ -47,7 +47,7 @@ class _ChatScreenState extends State<Chat> {
                 ),
               ),
             ),
-            Spacer(),
+            const Spacer(),
             IconButton(
               padding: const EdgeInsets.all(15),
               iconSize: 30,

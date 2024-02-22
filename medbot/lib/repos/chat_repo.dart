@@ -1,18 +1,25 @@
 // Import necessary dependencies
+import 'package:flutter/foundation.dart';
 import 'package:medbot/models/chat_message_model.dart';
 import 'package:dio/dio.dart';
 import 'package:medbot/utils/constants.dart';
 import 'dart:developer';
 
+
 // Define a class for ChatRepo
 class ChatRepo {
+  
+  
   // Define a static method for chat text generation
-  static Future<String> chatTextGenerationRepo(
-      List<ChatMessageModel> previousMessages) async {
+  static Future<String> chatTextGenerationRepo( 
+      List<ChatMessageModel> previousMessages
+      ) async {
     try {
       // Create an instance of Dio
       Dio dio = Dio();
-
+      // List<ChatPartModel> promptPart = [ChatPartModel(text: "YOU WILL NOW WRITE PYTHON CODE OF EVERY PROMPT I SEND")];
+      // List<ChatMessageModel> prompt = [ChatMessageModel(role: "user", parts: promptPart)];
+      // previousMessages = previousMessages + prompt;
       // Send a POST request to the generative language API
       final response = await dio.post(
           "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.0-pro:generateContent?key=${apiKey}",

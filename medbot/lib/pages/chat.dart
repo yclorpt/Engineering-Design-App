@@ -78,6 +78,7 @@ class _HomePageState extends State<Chat> {
                       child: ListView.builder(
                         itemCount: messages.length,
                         itemBuilder: (context, index) {
+
                           return Container(
                             margin: const EdgeInsets.only(bottom: 12, left: 16, right: 16),
                             padding: const EdgeInsets.all(16),
@@ -96,7 +97,11 @@ class _HomePageState extends State<Chat> {
                                   ),
                                 ),
                                 const SizedBox(height: 8),
-                                Text(messages[index].parts.first.text),
+                                Text(
+                                  messages[index].role == "user" ?
+                                  messages[index].parts.first.text.substring(581)
+                                  :
+                                  messages[index].parts.first.text),
                               ],
                             )
                           );

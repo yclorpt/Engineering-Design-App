@@ -99,7 +99,7 @@ class _HomePageState extends State<Chat> {
                                 const SizedBox(height: 8),
                                 Text(
                                   messages[index].role == "user" ?
-                                  messages[index].parts.first.text.substring(581)
+                                  messages[index].parts.first.text.substring(975)
                                   :
                                   messages[index].parts.first.text),
                               ],

@@ -20,4 +20,4 @@ The chatbot will be a mobile application that interfaces with Google's Dialogflo
 - 1st Place Colorado State TSA
 
 Authors:
-Thomas Daniels, Chirstopher Swanson-Booth, Joshua Woren, Deacon Zolkower
+Thomas Daniels, Christopher Swanson-Booth, Joshua Woren, Deacon Zolkower
